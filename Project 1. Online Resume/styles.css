@@ -32,3 +32,9 @@ body{
     margin-left: 3%;
     
 }
+
+.segundalista{
+    position: relative;
+    top: -146px;
+    left: 50%;
+}
