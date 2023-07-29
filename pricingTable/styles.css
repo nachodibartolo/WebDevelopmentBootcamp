@@ -1,0 +1,64 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'REM', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.planes{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 10%;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: solid black 1px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    min-width: 200px;
+    max-width: 200px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title{
+   align-self: center; 
+   margin: 10px 0px;
+   font-size: xx-large;
+}
+
+.plan-price{
+    align-self: center;
+}
+
+.left{
+    background: linear-gradient(0deg, rgba(34,60,195,1) 0%, rgba(45,253,71,1) 100%);
+}
+
+.middle{
+    background: linear-gradient(331deg, rgba(190,195,34,1) 25%, rgba(45,236,253,1) 100%);
+}
+
+.right{
+    background: linear-gradient(331deg, rgba(195,159,34,1) 23%, rgba(253,85,45,1) 100%);
+}
+
+.plan-button{
+    margin: auto auto 10px auto;
+    width: 120px;
+    height: 1.9rem;
+    border-radius: 10px;
+}
+
+.plan-button:hover{
+    background: radial-gradient(circle, rgba(157,34,195,1) 23%, rgba(253,85,45,1) 100%);
+    color: white;
+}
