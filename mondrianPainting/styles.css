@@ -11,10 +11,11 @@ body{
     background-color: black;
     width: 744px;
     margin: 100px auto;
+    border: solid 5px grey;
 }
 
 .back{
-    background-color: white;
+    background-color: rgb(254, 250, 224);
 }
 
 .red{
