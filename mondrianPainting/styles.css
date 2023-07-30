@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.pintura{
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    grid-gap: 8px;
+    background-color: black;
+    width: 744px;
+    margin: 100px auto;
+}
+
+.back{
+    background-color: white;
+}
+
+.red{
+    grid-column: span 1;
+    background-color: red;
+}
+
+.one{
+    grid-column: span 3;
+}
+
+.two{
+    grid-row: span 2;
+}
+
+.three{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.four{
+    grid-row: span 2;
+}
+
+.yellow{
+    background-color: yellow;
+}

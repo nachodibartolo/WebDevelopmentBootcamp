@@ -63,7 +63,7 @@ ul{
     color: white;
 }
 
-@media (max-width: 900px){
+@media (max-width: 950px){
     .planes{
         max-width: 400px;
         margin: 0 auto;
