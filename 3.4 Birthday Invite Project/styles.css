@@ -1,0 +1,135 @@
+
+.roboto-thin {
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+ }
+ 
+ .roboto-light {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+ }
+ 
+ .roboto-regular {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ .roboto-medium {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+ }
+ 
+ .roboto-bold {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+ }
+ 
+ .roboto-black {
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+ }
+ 
+ .roboto-thin-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 100;
+   font-style: italic;
+ }
+ 
+ .roboto-light-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   font-style: italic;
+ }
+ 
+ .roboto-regular-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: italic;
+ }
+ 
+ .roboto-medium-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-style: italic;
+ }
+ 
+ .roboto-bold-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+   font-style: italic;
+ }
+ 
+ .roboto-black-italic {
+   font-family: "Roboto", sans-serif;
+   font-weight: 900;
+   font-style: italic;
+ }
+
+
+h1{
+   text-align: center;
+   margin-top:3%;
+   font-size: 50px;
+}
+
+h2{
+   text-align: center;
+   color: whitesmoke;
+   font-size: 22px;
+}
+
+p{
+   color: whitesmoke;
+   font-size: 18px;
+   margin: 5% 0 0 10%;
+}
+
+ul{
+   color: whitesmoke;
+   font-size: 14px;
+   margin: 2% 0 0 20%;
+}
+
+a{
+display: block;
+text-align: center;
+margin: 20px;
+}
+
+.bg-video {
+   display: inline-block;
+   top: 0;
+   margin:200px;
+   object-fit: cover;
+   z-index: -1;
+}
+
+.content {
+   position: relative;
+   z-index: 1;
+   text-align: center;
+   padding: 20px;
+}
+
+.invitacion{
+   margin: 20px 10% 20px 10%;
+   padding: 15px 0 5% 0;
+   background-color: rgba(11, 113, 137, 0.7);
+   border-radius: 30px;
+   height: fit-content;
+}
+
+.foto{
+   display: inline-block;
+   margin: 4% 20% 0 10%;
+   border-radius: 600px;
+   height: 300px;
+
+}
+
